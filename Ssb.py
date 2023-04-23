@@ -141,7 +141,7 @@ def sarfraz():
     elif select =='9':
        cutter()
     elif select =='W':
-        os.system('xdg-open https://chat.whatsapp.com/J3gpK8NYNQBHhEYnVxN4X7')
+        os.system('xdg-open https://chat.whatsapp.com/DPSGKJoZTQGDdyfn9v9rK9 ')
         pass
     elif select =='F':
         os.system('xdg-open https://facebook.com/groups/3017062245271082/')
@@ -858,7 +858,7 @@ def approval():
   id = "-".join(uuid)
 
   try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/REHAN-XD/TEST/main/Approval.txt').text
+    httpCaht = requests.get('https://github.com/HASHIMALEE/Sss/blob/main/Approval.txt').text
     if id in httpCaht:
       print("\33[1;32mYOUR KEY IS APPROVED.")
       msg = str(os.geteuid())
